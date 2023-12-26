@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Fortinus Events</title>
+      <link rel="stylesheet" href="css/font.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/style.css" media="all" data-minify="1">
+      <link rel="stylesheet" href="css/my-style.css" media="all" data-minify="1">
+     
+      
+      <style type="text/css">
+         img.wp-smiley,
+         img.emoji {
+         display: inline !important;
+         border: none !important;
+         box-shadow: none !important;
+         height: 1em !important;
+         width: 1em !important;
+         margin: 0 0.07em !important;
+         vertical-align: -0.1em !important;
+         background: none !important;
+         padding: 0 !important;
+         }
+      </style>
+      <style id="global-styles-inline-css" type="text/css">
+         body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('creative.html#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('creative.html#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('creative.html#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('creative.html#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('creative.html#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('creative.html#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('creative.html#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('creative.html#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+         .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+         :where(.wp-block-columns.is-layout-flex){gap: 2em;}
+         .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+      </style>
+      <script type="text/javascript" src="js/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+      <script type="text/javascript" src="js/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+      <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+      <style type="text/css">.broken_link, a.broken_link {
+         text-decoration: line-through;
+         }
+      </style>
+      
+      <script>function setREVStartSize(e){
+         //window.requestAnimationFrame(function() {
+         	window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+         	window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+         	try {
+         		var pw = document.getElementById(e.c).parentNode.offsetWidth,
+         			newh;
+         		pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+         		e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+         		e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+         		e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+         		e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+         		e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+         		e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+         		e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+         		if(e.layout==="fullscreen" || e.l==="fullscreen")
+         			newh = Math.max(e.mh,window.RSIH);
+         		else{
+         			e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+         			for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+         			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+         			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+         			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+         								
+         			var nl = new Array(e.rl.length),
+         				ix = 0,
+         				sl;
+         			e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+         			e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+         			e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+         			e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+         			for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+         			sl = nl[0];
+         			for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+         			var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+         			newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+         		}
+         		var el = document.getElementById(e.c);
+         		if (el!==null && el) el.style.height = newh+"px";
+         		el = document.getElementById(e.c+"_wrapper");
+         		if (el!==null && el) {
+         			el.style.height = newh+"px";
+         			el.style.display = "block";
+         		}
+         	} catch(e){
+         		console.log("Failure at Presize of Slider:" + e)
+         	}
+         //});
+          };
+      </script>
+   </head>
+   <body data-rsssl="1" class="home page-template-default page page-id-3999 gdlr-core-body onepagepro-body onepagepro-body-front onepagepro-full  onepagepro-with-sticky-navigation gdlr-core-link-to-lightbox">
+      <div class="onepagepro-mobile-header-wrap ">
+         <div class="onepagepro-mobile-header onepagepro-header-background onepagepro-style-slide" id="onepagepro-mobile-header">
+            <div class="onepagepro-mobile-header-container onepagepro-container">
+               <div class="onepagepro-logo  onepagepro-item-pdlr">
+                  <div class="onepagepro-logo-inner"><a href="#"><img src="images/logo-mobile.png" alt width="150" height="26" title="logo-mobile"></a></div>
+               </div>
+               <div class="onepagepro-mobile-menu-right">
+                  <div class="onepagepro-mobile-menu">
+                     <a class="onepagepro-mm-menu-button onepagepro-mobile-menu-button onepagepro-mobile-button-hamburger" href="#onepagepro-mobile-menu"><span></span></a>
+                     <div class="onepagepro-mm-menu-wrap onepagepro-navigation-font" id="onepagepro-mobile-menu" data-slide="right">
+                        <ul id="menu-main-menu" class="m-menu">
+                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4008"><a href="#home">Home</a></li>
+                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4009"><a href="#services">What we do</a></li>
+                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4011"><a href="#about">About Us</a></li>
+                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4012"><a href="#news">Events</a></li>
+                           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4013"><a href="#contact">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="onepagepro-body-outer-wrapper ">
+         <div class="onepagepro-body-wrapper clearfix  onepagepro-with-transparent-header onepagepro-with-frame">
+            <div class="onepagepro-header-background-transparent">
+               <header class="onepagepro-header-wrap onepagepro-header-style-plain  onepagepro-style-menu-right onepagepro-sticky-navigation onepagepro-style-slide" data-navigation-offset="75px">
+                  <div class="onepagepro-header-background"></div>
+                  <div class="onepagepro-header-container  onepagepro-container">
+                     <div class="onepagepro-header-container-inner clearfix">
+                        <div class="onepagepro-logo  onepagepro-item-pdlr">
+                           <div class="onepagepro-logo-inner"><a href="#"><img src="images/logo.png" alt title="logo"></a></div>
+                        </div>
+                        <div class="onepagepro-navigation onepagepro-item-pdlr clearfix onepagepro-navigation-submenu-indicator ">
+                           <div class="onepagepro-main-menu" id="onepagepro-main-menu">
+                              <ul id="menu-main-menu-1" class="sf-menu">
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4008 onepagepro-normal-menu"><a href="#home">Home</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4009 onepagepro-normal-menu"><a href="#services">What we do</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4011 onepagepro-normal-menu"><a href="#about">About Us</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4012 onepagepro-normal-menu"><a href="#news">Events</a></li>
+                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4013 onepagepro-normal-menu"><a href="#contact">Contact</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- onepagepro-navigation -->
+                     </div>
+                     <!-- onepagepro-header-inner -->
+                  </div>
+                  <!-- onepagepro-header-container -->
+               </header>
+               <!-- header -->
+            </div>
+            <div class="onepagepro-page-wrapper" id="onepagepro-page-wrapper">
+               <div class="gdlr-core-page-builder-body">
+                  <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;" id="home">
+                     <div class="gdlr-core-pbf-background-wrap" style="background-color: #383838 ;"></div>
+                     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+                           <div class="gdlr-core-pbf-element">
+                              <div class="gdlr-core-revolution-slider-item gdlr-core-item-pdlr gdlr-core-item-pdb " style="padding-bottom: 0px ;">
+                                 <!-- START Homepage Creative REVOLUTION SLIDER 6.6.7 -->
+                                 <p class="rs-p-wp-fix"></p>
+                                 <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility: hidden; background: transparent; padding: 0px; margin: 0px auto; height: 868px; display: block;">
+                                    <rs-module id="rev_slider_1_1" style="height: 868px;" data-version="6.6.7">
+                                       <rs-slides style="overflow: hidden; position: absolute;">
+                                          <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="images/banner1.png" data-anim="ms:600;r:0;" data-in="o:0;" data-out="a:false;">
+                                             <img src="images/banner1.jpg" alt title="Homepage – Creative" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/banner1.jpg" data-parallax="off" data-no-retina>
+                                             <!--
+                                                -->
+                                             
+                                             <!--
+                                                -->
+                                             
+                                             <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:452px,452px,452px,0;y:m;yo:-86px,-86px,-86px,-182px;" data-text="s:40,40,40,39;l:40;fw:700;a:inherit;" data-frame_0="tp:600;" data-frame_1="tp:600;st:200;sR:200;" data-frame_999="o:0;tp:600;st:w;sR:8500;" style="z-index:11;font-family:&#x27;Montserrat&#x27;">We Inform, Innovate and Inspire.
+                                                </rs-layer>
+                                                <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-6" class="rs-pxl-1" data-type="text" data-color="#2ab2da" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:539px,539px,539px,0;y:m;yo:-22px,-22px,-22px,-126px;" data-text="s:100,100,100,81;l:220,220,220,90;fw:700;a:inherit;" data-frame_0="x:-175%;o:1;tp:600;" data-frame_0_mask="u:t;x:100%;" data-frame_1="tp:600;e:power3.out;st:500;sp:1500;sR:500;" data-frame_1_mask="u:t;" data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:12;font-family:&#x27;Montserrat&#x27;;background:-webkit-linear-gradient(#2a8eda, #2abbda);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Fortinus Events 
+                                                </rs-layer>
+                                                <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:454px,454px,454px,0;y:m;yo:156px,156px,156px,3px;" data-text="w:normal;s:19,19,19,16;l:29,29,29,27;a:inherit,inherit,inherit,center;" data-dim="w:801px,801px,801px,415px;" data-frame_0="tp:600;" data-frame_1="tp:600;st:700;sR:700;" data-frame_999="o:0;tp:600;st:w;sR:8000;" style="z-index:13;font-family:&#x27;Open Sans&#x27;;">We create experiences by bringing together leading organizations in an environment aimed at knowledge sharing and networking opportunities. Our events empower communities of buyers and sellers across the globe to connect, collaborate and transact.  
+                                                </rs-layer>
+                                             <!--
+                                                -->
+                                           
+                                             <!--
+                                                -->						
+                                          </rs-slide>
+                                          <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="images/banner1.png" data-anim="ms:600;r:0;" data-in="o:0;" data-out="a:false;">
+                                             <img src="images/banner2.jpg" alt title="Homepage – Creative" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/banner2.jpg" data-parallax="off" data-no-retina>
+                                             <!--
+                                                -->
+                                            
+                                             <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:452px,452px,452px,0;y:m;yo:-86px,-86px,-86px,-182px;" data-text="s:40,40,40,39;l:40;fw:700;a:inherit;" data-frame_0="tp:600;" data-frame_1="tp:600;st:200;sR:200;" data-frame_999="o:0;tp:600;st:w;sR:8500;" style="z-index:11;font-family:&#x27;Montserrat&#x27;">We Inform, Innovate and Inspire.
+                                                </rs-layer>
+                                                <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-6" class="rs-pxl-1" data-type="text" data-color="#2ab2da" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:539px,539px,539px,0;y:m;yo:-22px,-22px,-22px,-126px;" data-text="s:100,100,100,81;l:220,220,220,90;fw:700;a:inherit;" data-frame_0="x:-175%;o:1;tp:600;" data-frame_0_mask="u:t;x:100%;" data-frame_1="tp:600;e:power3.out;st:500;sp:1500;sR:500;" data-frame_1_mask="u:t;" data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:12;font-family:&#x27;Montserrat&#x27;;background:-webkit-linear-gradient(#2a8eda, #2abbda);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Fortinus Events 
+                                                </rs-layer>
+                                                <!--
+                                                -->
+                                                <rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:454px,454px,454px,0;y:m;yo:156px,156px,156px,3px;" data-text="w:normal;s:19,19,19,16;l:29,29,29,27;a:inherit,inherit,inherit,center;" data-dim="w:801px,801px,801px,415px;" data-frame_0="tp:600;" data-frame_1="tp:600;st:700;sR:700;" data-frame_999="o:0;tp:600;st:w;sR:8000;" style="z-index:13;font-family:&#x27;Open Sans&#x27;;">We create experiences by bringing together leading organizations in an environment aimed at knowledge sharing and networking opportunities. Our events empower communities of buyers and sellers across the globe to connect, collaborate and transact.  
+                                                </rs-layer>
+                                           					
+                                          </rs-slide>
+                                       </rs-slides>
+                                    </rs-module>
+                                    <script>
+                                       setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1240,1240,480],el:[868,868,868,520],gw:[1280,1280,1280,480],gh:[868,868,868,520],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider11"]!==undefined) {window.RS_MODULES.modules["revslider11"].once = false;window.revapi1 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+                                    </script>
+                                 </rs-module-wrap>
+                                 <!-- END REVOLUTION SLIDER -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="gdlr-core-pbf-wrapper " style="padding: 100px 0px 30px 0px;" id="services">
+                     <div class="gdlr-core-pbf-background-wrap"></div>
+                     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                           <div class="gdlr-core-pbf-element">
+                              <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 80px ;">
+                                 <div class="gdlr-core-title-item-title-wrap">
+                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 58px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"><span class="gdlr-core-title-item-side-border gdlr-core-skin-divider gdlr-core-left" style="border-color: #2ab9da ;"></span>What We Do</h3>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
+                              <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-background-wrap"></div>
+                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                       <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 30px;">
+                                          <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-bottom: 35px;margin-left: auto ;margin-right: auto ;"><img src="images/01.jpg"></div>
+                                          <div class="gdlr-core-column-service-content-wrapper">
+                                             <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
+                                                <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;text-transform: none ;">Conferences and <br>Exhibitions</h3>
+                                             </div>
+                                             <div class="gdlr-core-column-service-content" style="font-size: 16px ;">
+                                                <p>Addressing your needs, our large-scale events offers a platform for business leaders to learn, share and network with key decisions makers. Bringing partners and customers together, We Create Events, We Create Experiences, while building a knowledge-sharing community. Gain direct access to your prospects through pre-arranged meeting, so you have meaningful conversations tailored around their needs and challenges.</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                              <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                       <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 30px;">
+                                          <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-bottom: 40px;margin-left: auto ;margin-right: auto ;"><img src="images/02.jpg"></div>
+                                          <div class="gdlr-core-column-service-content-wrapper">
+                                             <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
+                                                <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;text-transform: none ;">Tailored Client <br>Events</h3>
+                                             </div>
+                                             <div class="gdlr-core-column-service-content" style="font-size: 16px ;">
+                                                <p>Your requirements are unique, and we understand; hence we help you fully tailored and create bespoke events, from conceptualization to execution, targeted towards your organization’s goals and KPIs. Working with you to create your wow! event.</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                              <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                       <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 30px;">
+                                          <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 0px;margin-bottom: 35px;margin-left: auto ;margin-right: auto ;"><img src="images/03.jpg"></div>
+                                          <div class="gdlr-core-column-service-content-wrapper">
+                                             <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
+                                                <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;text-transform: none ;">Digital <br>Marketing</h3>
+                                             </div>
+                                             <div class="gdlr-core-column-service-content" style="font-size: 16px ;">
+                                                <p>Need to increase your exposure and market your brand across myriad platforms? Have an innovative product that you would like to share with prospects? Let us help! Tap into our community to expand your reach through targeted eDMs, Content editorial pieces, web banners, etc. Helping you create the most powerful content to engage and convert your prospects at every touchpoint! We bridge the gap between the customer and your marketing campaigns.</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                              <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                       <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 30px;">
+                                          <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 0px;margin-bottom: 35px;margin-left: auto ;margin-right: auto ;"><img src="images/04.jpg"></div>
+                                          <div class="gdlr-core-column-service-content-wrapper">
+                                             <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
+                                                <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;text-transform: none ;">Events <br>
+                                                   Management</h3>
+                                             </div>
+                                             <div class="gdlr-core-column-service-content" style="font-size: 16px ;">
+                                                <p>Let us help deliver the blueprint of your event ideas. We manage and organise customised events for your corporate and social events. Our team of experienced event professional can help you deliver an end-to-end event solutions from organise accommodation, delegate sales, sponsorship, content production, finding a venue, AV solutions, etc..
+                                                   Campaigns / Roadshows / Product Launches / Event Production and Management / Awards / Gala Dinners / Event Consultancy</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--<div class="gdlr-core-pbf-column gdlr-core-column-30">
+                              <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                    <div class="gdlr-core-pbf-element">
+                                       <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 30px;">
+                                          <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 5px;margin-bottom: 40px;margin-left: auto ;margin-right: auto ;"><img src="images/04.jpg"></div>
+                                          <div class="gdlr-core-column-service-content-wrapper">
+                                             <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 22px ;">
+                                                <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;text-transform: none ;">Follow Up</h3>
+                                             </div>
+                                             <div class="gdlr-core-column-service-content" style="font-size: 16px ;">
+                                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div> -->
+                        </div>
+                     </div>
+                  </div>
+                  
+                 
+                  
+               </div>
+               <div class="gdlr-core-pbf-wrapper " style="padding: 100px 0px 30px 0px;" id="about">
+                  <div class="gdlr-core-pbf-background-wrap"></div>
+                  <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
+                           <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                              <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 60px ;">
+                                       <div class="gdlr-core-title-item-title-wrap">
+                                          <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 65px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">About Us.<span class="gdlr-core-title-item-side-border gdlr-core-skin-divider gdlr-core-right" style="border-color: #38bedc ;"></span></h3>
+                                       </div>
+                                    </div>
+                                 </div>
+                             
+								 <div class="gdlr-core-pbf-element">
+									<div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 20px ;">
+									   <div class="gdlr-core-text-box-item-content" style="font-size: 19px ;">
+										  <p>Fortinus Events is headquartered in Singapore, with operations across all regions. Our team has collectively spent over 35 years creating innovative, action-based event platforms to share business intelligence, provide networking, and connect business opportunities for large oragnizations, SMEs and startups globally.
+										</p>
+									   </div>
+									</div>
+								 </div>
+								 <div class="gdlr-core-pbf-element">
+									<div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 20px ;">
+									   <div class="gdlr-core-text-box-item-content" style="font-size: 16px ;">
+										  <p>We INFORM, INNOVATE and INSPIRE business leaders like yourselves to harness the power of digital and in-person business connections by creating experiential events with cutting-edge content and client engagement that allows us to put your needs at the forefront and help you grow and scale your business.
+										</p>
+									   </div>
+									</div>
+								 </div>
+                          
+                                
+                              </div>
+                           </div>
+                        </div>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-30" data-skin="about quote">
+                           <div class="gdlr-core-pbf-column-content-margin gdlr-core-js  gdlr-core-column-extend-right" style="margin: 0px 0px 0px 20px;padding: 760px 0px 0px 80px;">
+                              <div class="gdlr-core-pbf-background-wrap">
+                                 <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(images/aboutus.png) ;background-repeat: no-repeat ;background-position: top left ;" data-parallax-speed="0"></div>
+                              </div>
+                          
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               
+               </div>
+               <div class="gdlr-core-pbf-wrapper " style="padding: 120px 0px 50px 0px;" data-skin="blog" id="news">
+                  <div class="gdlr-core-pbf-background-wrap">
+                     <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(images/blog-bg.jpg) ;background-size: cover ;background-position: center ;" data-parallax-speed="0.3"></div>
+                  </div>
+                  <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-element">
+                           <div class="gdlr-core-blog-item gdlr-core-item-pdb clearfix  gdlr-core-style-blog-column gdlr-core-item-pdlr" style="padding-bottom: 20px ;">
+                              <div class="gdlr-core-block-item-title-wrap  gdlr-core-left-align gdlr-core-caption-right gdlr-core-with-nav">
+                                 <h3 class="gdlr-core-block-item-title" style="font-size: 58px ;text-transform: none ;width: 510px ; color:#fff;">Events</h3>
+                                 <div class="gdlr-core-block-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;padding-top: 15px ;">
+                                    
+                                    
+                                 </div>
+                                 <div class="gdlr-core-flexslider-nav gdlr-core-plain-circle-style gdlr-core-absolute gdlr-core-right" style="padding-top: 15px ;"></div>
+                              </div>
+                              <div class="gdlr-core-flexslider flexslider gdlr-core-js-2 " style="padding-top: 30px;" data-type="carousel" data-column="3" data-move="1" data-nav="navigation" data-nav-parent="gdlr-core-blog-item" data-disable-autoslide="1">
+                                 <ul class="slides">
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-blog-grid ">
+                                          <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover"><a href="events-details.html"><img src="images/05.jpg"></a></a></div>
+                                          <div class="gdlr-core-blog-grid-content-wrap gdlr-core-js" data-sync-height="blog-grid-content-wrap">
+                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ; color:#fff;">Supply Chain Conference Malaysia
+</h3>
+                                             <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider"><span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date"><span class="gdlr-core-head"><i class="fa fa-clock-o"></i></span><a href="events-details.html">May 11, 2023</a></span></div>
+                                             <div class="gdlr-core-blog-content">
+                                                <p> Bringing together supply chain leaders and technology innovators aimed at transforming and improving supply chain networks from Malaysia to the world.  </p> 
+                                                <div class="clear"></div>
+                                                <p><a href="events-details.html">View More</a></p>
+                                             </div>
+                                             <div class="gdlr-core-blog-divider gdlr-core-skin-divider" data-sync-height-offset></div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-blog-grid ">
+                                          <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover"><a href="events-details.html"><img src="images/06.jpg"></a></div>
+                                          <div class="gdlr-core-blog-grid-content-wrap gdlr-core-js" data-sync-height="blog-grid-content-wrap">
+                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ; color:#fff;">Digital Transformation Egypt Summit
+</h3>
+                                             <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider"><span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date"><span class="gdlr-core-head"><i class="fa fa-clock-o"></i></span><a href="#">May 18, 2023</a></span></div>
+                                             <div class="gdlr-core-blog-content">
+                                                <p> The event brings together the regional community of leaders working on transforming organizations through digital innovation and transformative strategy.</p> 
+                                                <div class="clear"></div>
+                                                <p><a href="events-details.html">View More</a></p>
+                                             </div>
+                                             <div class="gdlr-core-blog-divider gdlr-core-skin-divider" data-sync-height-offset></div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-blog-grid ">
+                                          <div class="gdlr-core-blog-thumbnail gdlr-core-media-image  gdlr-core-opacity-on-hover gdlr-core-zoom-on-hover"><a href="events-details.html"><img src="images/07.jpg"></a></a></div>
+                                          <div class="gdlr-core-blog-grid-content-wrap gdlr-core-js" data-sync-height="blog-grid-content-wrap">
+                                             <h3 class="gdlr-core-blog-title gdlr-core-skin-title" style="font-size: 22px ;font-weight: 700 ;letter-spacing: 0px ; color:#fff;">CFO Conference <br>Malaysia
+</h3>
+                                             <div class="gdlr-core-blog-info-wrapper gdlr-core-skin-divider"><span class="gdlr-core-blog-info gdlr-core-blog-info-font gdlr-core-skin-caption gdlr-core-blog-info-date"><span class="gdlr-core-head"><i class="fa fa-clock-o"></i></span><a href="#">June, 2023</a></span></div>
+                                             <div class="gdlr-core-blog-content">
+                                               <p> Join senior finance professionals to share knowledge, understand future trends and discover innovative solutions to financial and strategic issues relevant to any organizations.</p>
+                                                <div class="clear"></div>
+                                                <p><a href="events-details.html">View More</a></p>
+                                             </div>
+                                             <div class="gdlr-core-blog-divider gdlr-core-skin-divider" data-sync-height-offset></div>
+                                          </div>
+                                       </div>
+                                    </li>
+                         
+                                    
+                                    
+                                 </ul>
+
+
+
+                              </div>
+
+                              <div class="view-btn"><a href="events.html"> View All </a> </div>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="gdlr-core-pbf-wrapper " style="padding: 90px 0px 60px 0px; display: none;" data-skin="testimonial">
+                  <div class="gdlr-core-pbf-background-wrap" style="background-color: #f5f5f5 ;"></div>
+                  <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-element">
+                           <div class="gdlr-core-testimonial-item gdlr-core-item-pdb clearfix  gdlr-core-testimonial-style-left gdlr-core-item-pdlr">
+                              <div class="gdlr-core-testimonial-item-title-wrap " style="margin-bottom: 40px ;">
+                                 <h3 class="gdlr-core-testimonial-item-title" style="font-size: 56px ;text-transform: none ;letter-spacing: 0px ;"><span class="gdlr-core-title-item-side-border gdlr-core-skin-divider gdlr-core-left" style="border-color: #38bddc ;"></span>Testimonial .</h3>
+                                 <div class="gdlr-core-flexslider-nav gdlr-core-plain-circle-style gdlr-core-absolute-center gdlr-core-right"></div>
+                              </div>
+                              <div class="gdlr-core-flexslider flexslider gdlr-core-js-2 " data-type="carousel" data-column="3" data-nav="navigation" data-nav-parent="gdlr-core-testimonial-item" data-disable-autoslide="1">
+                                 <ul class="slides">
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-testimonial clearfix">
+                                          <div class="gdlr-core-testimonial-quote gdlr-core-quote-font">“</div>
+                                          <div class="gdlr-core-testimonial-content-wrap">
+                                             <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 16px ;">
+                                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss</p>
+                                             </div>
+                                             <div class="gdlr-core-testimonial-author-wrap clearfix">
+                                               
+                                                <div class="gdlr-core-testimonial-author-content">
+                                                   <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title">Tim Coook</div>
+                                                   <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">CEO Of Apple</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-testimonial clearfix">
+                                          <div class="gdlr-core-testimonial-quote gdlr-core-quote-font">“</div>
+                                          <div class="gdlr-core-testimonial-content-wrap">
+                                             <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 16px ;">
+                                                <p>my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was</p>
+                                             </div>
+                                             <div class="gdlr-core-testimonial-author-wrap clearfix">
+                                               
+                                                <div class="gdlr-core-testimonial-author-content">
+                                                   <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title">Jame Smith</div>
+                                                   <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">Designer</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-testimonial clearfix">
+                                          <div class="gdlr-core-testimonial-quote gdlr-core-quote-font">“</div>
+                                          <div class="gdlr-core-testimonial-content-wrap">
+                                             <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 16px ;">
+                                                <p>I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects.</p>
+                                             </div>
+                                             <div class="gdlr-core-testimonial-author-wrap clearfix">
+                                                
+                                                <div class="gdlr-core-testimonial-author-content">
+                                                   <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title">Natasha Gordon</div>
+                                                   <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">Blogger</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                    <li class="gdlr-core-item-mglr">
+                                       <div class="gdlr-core-testimonial clearfix">
+                                          <div class="gdlr-core-testimonial-quote gdlr-core-quote-font">“</div>
+                                          <div class="gdlr-core-testimonial-content-wrap">
+                                             <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 16px ;">
+                                                <p>my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was</p>
+                                             </div>
+                                             <div class="gdlr-core-testimonial-author-wrap clearfix">
+                                                
+                                                <div class="gdlr-core-testimonial-author-content">
+                                                   <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title">Alan Cooper</div>
+                                                   <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption">Manager at Ford</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="gdlr-core-pbf-wrapper " style="padding: 90px 0px 60px 0px;" data-skin="contact" id="contact">
+                  <div class="gdlr-core-pbf-background-wrap"></div>
+                  <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                     <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                        <div class="gdlr-core-pbf-column gdlr-core-column-15 gdlr-core-column-first">
+                           <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 5px 0px 0px 0px;">
+                              <div class="gdlr-core-pbf-background-wrap"></div>
+                              <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 45px ;">
+                                       <div class="gdlr-core-title-item-title-wrap">
+                                          <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: bold ;letter-spacing: 0px ;text-transform: none ;">Fortinus Events Pte. Ltd.</h3>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix  gdlr-core-left-align">
+                                       <ul>
+                                          <li class=" gdlr-core-skin-divider clearfix" style="margin-bottom: 20px ;">
+                                             <span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon icon_pin_alt" style="font-size: 16px ;width: 16px ;"></i></span>
+                                             <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">International Plaza, #10-11
+                                                Singapore 079903</span></div>
+                                          </li>
+                                          <li class=" gdlr-core-skin-divider clearfix" style="margin-bottom: 20px ;">
+                                             <a href="#">
+                                                <span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon icon_mail_alt" style="font-size: 16px ;width: 16px ;"></i></span>
+                                                <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;"><span class="__cf_email__" > info@fortinusevents.com</span></span></div>
+                                             </a>
+                                          </li>
+                                          <li class=" gdlr-core-skin-divider clearfix" style="margin-bottom: 20px ;">
+                                             <span class="gdlr-core-icon-list-icon-wrap"><i class="gdlr-core-icon-list-icon icon_phone" style="font-size: 16px ;width: 16px ;"></i></span>
+                                             <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">+65 9763 5186 <br>
+                                                +60 12 915 5770
+                                                </span></div>
+                                          </li>
+                                          <li class=" gdlr-core-skin-divider clearfix" style="margin-bottom: 20px ;">
+                                             <span class="gdlr-core-icon-list-icon-wrap"><i class="fa fa-web" style="font-size: 16px ;width: 16px ;"></i></span>
+                                             <div class="gdlr-core-icon-list-content-wrap social-media"><!--<a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> --><a href="https://www.linkedin.com/company/fortinusevents/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+                                          </li>
+                                         
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="gdlr-core-pbf-column gdlr-core-column-45">
+                           <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                              <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                 <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px ;">
+                                       <div class="gdlr-core-title-item-title-wrap">
+                                          <h3 class="gdlr-core-title-item-title gdlr-core-skin-title" style="font-size: 35px ;letter-spacing: 0px ;text-transform: none ;">Contact Form.</h3>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="gdlr-core-pbf-element">
+                                    <div class="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb ">
+                                       <div role="form" class="wpcf7" id="wpcf7-f5-p3999-o1" lang="en-US" dir="ltr">
+                                          <div class="screen-reader-response">
+                                             <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                             <ul></ul>
+                                          </div>
+                                          <form >
+                                           
+                                             <div class="gdlr-core-input-wrap gdlr-core-full-width gdlr-core-with-column gdlr-core-bottom-border">
+                                                <div class="gdlr-core-column-20"><span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name*"></span></div>
+                                                <div class="gdlr-core-column-20"><span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email*"></span></div>
+                                                <div class="gdlr-core-column-20"><span class="wpcf7-form-control-wrap" data-name="your-subject"><input type="text" name="your-subject" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Subject*"></span></div>
+                                                <div class="clear"></div>
+                                                <div class="gdlr-core-column-60"><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message*"></textarea></span></div>
+                                                <div class="gdlr-core-column-60"><input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit gdlr-core-large"></div>
+                                             </div>
+                                             <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                          </form>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer>
+            <div class="onepagepro-copyright-wrapper">
+               <div class="onepagepro-copyright-container onepagepro-container">
+                  <div class="onepagepro-copyright-text onepagepro-item-pdlr">Copyright © 2023 Fortinus Events All Rights Reserved.</div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      </div>
+      <style>#gdlr-core-button-id-41355{font-size: 13px ;color: #2aa5da ;padding: 0px 0px 0px 0px;}#gdlr-core-button-id-41355:hover{color: #68b6d8 ;}#gdlr-core-button-id-63517{font-size: 13px ;color: #2aa5da ;padding: 0px 0px 0px 0px;}#gdlr-core-button-id-63517:hover{color: #68b6d8 ;}#gdlr-core-button-id-55861{font-size: 13px ;color: #2aa5da ;padding: 0px 0px 0px 0px;}#gdlr-core-button-id-55861:hover{color: #68b6d8 ;}#gdlr-core-button-id-53294{font-size: 13px ;color: #2aa5da ;padding: 0px 0px 0px 0px;}#gdlr-core-button-id-53294:hover{color: #68b6d8 ;}</style>
+      
+      <style id="rs-plugin-settings-inline-css" type="text/css">
+         #rev_slider_1_1_wrapper .uranus .tp-bullet{border-radius:50%; box-shadow:0 0 0 2px rgba(255,255,255,0); -webkit-transition:box-shadow 0.3s ease; transition:box-shadow 0.3s ease; background:transparent; width:15px; height:15px}#rev_slider_1_1_wrapper .uranus .tp-bullet.selected,#rev_slider_1_1_wrapper .uranus .tp-bullet.rs-touchhover{box-shadow:0 0 0 2px rgba(255,255,255,1); border:none; border-radius:50%; background:transparent}#rev_slider_1_1_wrapper .uranus .tp-bullet-inner{-webkit-transition:background-color 0.3s ease,-webkit-transform 0.3s ease; transition:background-color 0.3s ease,transform 0.3s ease; top:0; left:0; width:100%; height:100%; outline:none; border-radius:50%; background-color:rgba(255,255,255,0); background-color:rgba(255,255,255,0.3); text-indent:-999em; cursor:pointer; position:absolute}#rev_slider_1_1_wrapper .uranus .tp-bullet.selected .tp-bullet-inner,#rev_slider_1_1_wrapper .uranus .tp-bullet.rs-touchhover .tp-bullet-inner{transform:scale(0.4); -webkit-transform:scale(0.4); background-color:rgba(255,255,255,1)}
+      </style>
+     
+  
+    
+      <script src="js/85f755e59d8e429e973b951759682e70.js" data-minify="1" defer></script><script defer src="#" data-cf-beacon="{" rayId":"7761b997aec90b04","version":"2022.11.3","r":1,"token":"9247582a97cd45c0b9f0c15195583f49","si":100}" crossorigin="anonymous"></script>
+   </body>
+</html>
